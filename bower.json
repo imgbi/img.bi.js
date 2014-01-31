@@ -1,0 +1,16 @@
+{
+  "name": "img.bi.js",
+  "main": "img.bi.js",
+  "version": "0.1",
+  "homepage": "https://img.bi/js",
+  "description": "Embed images from sites based on img.bi software.",
+  "keywords": [
+    "img.bi",
+    "crypto",
+    "image"
+  ],
+  "authors": [
+    "Anton Nesterov"
+  ],
+  "license": "CC0"
+}
