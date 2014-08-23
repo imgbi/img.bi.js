@@ -12,8 +12,9 @@
     var elems = document.querySelectorAll('[data-imgbi]');
     i = elems.length;
     while (i--) {
-      var params = elems[i].dataset.imgbi.split('!');
-      imgBiJSDownload(params[0].replace('#','') + 'download/' + params[1], params[2], elems[i], new XMLHttpRequest());
+      var params = elems[i].dataset.imgbi.split('#/');
+      var ids = params[1].split('!');
+      imgBiJSDownload(params[0] + 'download/' + ids[0], ids[1], elems[i], new XMLHttpRequest());
     }
   }
   function imgBiJSDownload(url, pass, elem, request) {
